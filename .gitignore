@@ -1,0 +1,24 @@
+# Terraform state — NEVER commit
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform working directories
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable override files (may contain secrets)
+*.tfvars
+!environments/*.tfvars
+
+# Plan output files
+*.tfplan
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
